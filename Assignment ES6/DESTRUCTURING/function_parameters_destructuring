@@ -1,0 +1,14 @@
+function displayProfile({ username, email }) {
+    console.log(`Username: ${username}`);
+    console.log(`Email: ${email}`);
+}
+
+const userProfile = {
+    username: 'alice_wonder',
+    email: 'alice@example.com'
+};
+
+displayProfile(userProfile);
+// Output: 
+// Username: alice_wonder
+// Email: alice@example.com

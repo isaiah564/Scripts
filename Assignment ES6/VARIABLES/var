@@ -1,0 +1,8 @@
+var name = 'Alice';
+
+if (true) {
+    var name = 'Bob'; // This re-declares the same variable
+    console.log(name); // Output: Bob
+}
+
+console.log(name); // Output: Bob (affected by the block above)

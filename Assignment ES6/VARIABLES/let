@@ -1,0 +1,8 @@
+let counter = 0;
+
+if (true) {
+    let counter = 1; // This is a different `counter`
+    console.log(counter); // Output: 1
+}
+
+console.log(counter); // Output: 0
